@@ -1,0 +1,40 @@
+.navbar { 
+    display: flex; 
+    align-items: center; 
+    justify-content: space-between; 
+    position: fixed; 
+    top: 0; 
+    width: 100%; 
+    background-image: linear-gradient(90deg, #74D7BB, #53C8B6, #35A99C); 
+    background-color: transparent; 
+} 
+.logo { 
+    padding: 0 5rem; 
+} 
+.logo .logo-heading { 
+    color: #fff; 
+} 
+.menu { 
+    padding: 0 5rem; 
+} 
+.cross-icon { 
+    display: none; 
+} 
+.menu-list { 
+    display: flex; 
+    list-style: none; 
+} 
+.items { 
+    padding: 0.5rem 1rem; 
+} 
+.links{
+    text-decoration: none; 
+    color: #fff; 
+    font-size: 15px; 
+    padding: 5px;
+}
+.links:hover{
+    background-color: #000;
+    color: #fff;
+    border-radius: 10px;
+}
